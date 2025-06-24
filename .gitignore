@@ -5,3 +5,6 @@ seeds
 .next
 pods/service-connections
 sflow-dendron-notes
+sf-ontology
+sf-cli
+test-ns
