@@ -1,14 +1,8 @@
 {
     "folders": [
         {
-            "path": "sflow-dendron-notes"
+            "path": "."
         },
-        {
-            "path": "ns"
-        },
-        {
-            "path": "sf-ontology"
-        }
     ],
     "settings": {
         "dendron.rootDir": ".",
