@@ -6,7 +6,7 @@ seeds
 pods/service-connections
 sf-api
 sf-cli
-sf-ontology
+sflo-ontology
 sf-service
 sflow-dendron-notes
 test-ns
