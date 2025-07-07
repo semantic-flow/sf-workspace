@@ -22,12 +22,11 @@ commands:
     templateHierarchy: template
 workspace:
     vaults:
-        -
-            fsPath: sflow-dendron-notes
-            remote:
-                type: git
-                url: git@github.com:semantic-flow/sflow-dendron-notes.git
-            name: sflow-dendron-notes
+        - fsPath: sflo-dendron-notes
+          remote:
+              type: git
+              url: git@github.com:semantic-flow/sflo-dendron-notes.git
+          name: sflo-dendron-notes
     journal:
         dailyDomain: daily
         name: journal
@@ -42,7 +41,7 @@ workspace:
         dateFormat: y.MM.dd
         addBehavior: asOwnDomain
         statusSymbols:
-            '': ' '
+            "": " "
             wip: w
             done: x
             assigned: a
@@ -50,7 +49,7 @@ workspace:
             blocked: b
             delegated: l
             dropped: d
-            pending: 'y'
+            pending: "y"
         taskCompleteStatus:
             - done
             - x
@@ -72,7 +71,7 @@ workspace:
     enableAutoFoldFrontmatter: false
     enableEditorDecorations: true
     maxPreviewsCached: 10
-    maxNoteLength: 204800
+    maxNoteLength: 409600
     enableFullHierarchyNoteTitle: false
     enablePersistentHistory: false
 preview:
@@ -111,4 +110,4 @@ publishing:
     duplicateNoteBehavior:
         action: useVault
         payload:
-            - sflow-dendron-notes
+            - sflo-dendron-notes
