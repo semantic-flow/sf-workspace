@@ -4,9 +4,9 @@ build
 seeds
 .next
 pods/service-connections
-sflo-api
-sflo-cli
-sflo-ontology
-sflo-service
+flow-api
+flow-cli
+flow-ontology
+flow-service
 sflo-dendron-notes
 test-ns
