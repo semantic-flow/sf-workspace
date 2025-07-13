@@ -2,11 +2,9 @@ node_modules
 .dendron.*
 build
 seeds
-.next
 pods/service-connections
-flow-api
-flow-cli
 flow-ontology
-flow-service
 sflo-dendron-notes
 test-ns
+semantic-flow
+

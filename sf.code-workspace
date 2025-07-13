@@ -32,5 +32,12 @@
             "kortina.vscode-markdown-notes",
             "mushan.vscode-paste-image"
         ]
+    },
+    "launch": {
+        "version": "0.2.0",
+        "configurations": [
+
+
+        ]
     }
 }
