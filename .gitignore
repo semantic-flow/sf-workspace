@@ -3,8 +3,8 @@ node_modules
 build
 seeds
 pods/service-connections
-flow-ontology
+ontology
+semantic-flow
 sflo-dendron-notes
 test-ns
-semantic-flow
 
