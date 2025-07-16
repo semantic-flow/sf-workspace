@@ -2,15 +2,6 @@
     "folders": [
         {
             "path": "."
-        },
-        {
-            "path": "semantic-flow"
-        },
-        {
-            "path": "ontology"
-        },
-        {
-            "path": "test-ns"
         }
     ],
     "settings": {

@@ -1,7 +1,7 @@
 version: 5
 dev:
     enablePreviewV2: true
-    enableSelfContainedVaults: true
+    enableSelfContainedVaults: false
 commands:
     lookup:
         note:
@@ -63,7 +63,7 @@ workspace:
         zoomSpeed: 1
         createStub: false
     enableAutoCreateOnDefinition: false
-    enableXVaultWikiLink: false
+    enableXVaultWikiLink: true
     enableRemoteVaultInit: true
     enableUserTags: true
     enableHashTags: true
@@ -73,13 +73,12 @@ workspace:
     maxPreviewsCached: 10
     maxNoteLength: 409600
     enableFullHierarchyNoteTitle: false
-    enablePersistentHistory: false
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true
     enableFrontmatterTags: true
     enableHashesForFMTags: false
-    enablePrettyRefs: true
+    enablePrettyRefs: false
     enableKatex: true
     automaticallyShowPreview: false
 publishing:
@@ -106,7 +105,7 @@ publishing:
     enableRandomlyColoredTags: true
     enableTaskNotes: true
     enablePrettyLinks: true
-    searchMode: search
+    searchMode: lookup
     duplicateNoteBehavior:
         action: useVault
         payload:

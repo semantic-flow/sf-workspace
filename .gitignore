@@ -4,7 +4,7 @@ build
 seeds
 pods/service-connections
 ontology
-semantic-flow
 sflo-dendron-notes
+sflow-platform
 test-ns
-
+.roo/mcp.json
