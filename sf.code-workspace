@@ -3,6 +3,15 @@
         {
             "path": "."
         },
+        {
+            "path": "semantic-flow"
+        },
+        {
+            "path": "ontology"
+        },
+        {
+            "path": "test-ns"
+        }
     ],
     "settings": {
         "dendron.rootDir": ".",
@@ -35,9 +44,6 @@
     },
     "launch": {
         "version": "0.2.0",
-        "configurations": [
-
-
-        ]
+        "configurations": []
     }
 }
